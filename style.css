@@ -3,7 +3,7 @@
     padding: 0;
     font-family: cursive;
 }
-div {
+div.header {
     text-align: center;
     color: white;
     background-color: red;
@@ -14,4 +14,18 @@ div {
     border: solid 4px white;
     border-radius: 20px;
     padding: 7px;
+}
+div.navbar {
+    text-align: center;
+    background-color: gray;
+    padding: 15px;
+}
+div.navbar a {
+    color: white;
+    margin: 120px;
+    text-decoration: none;
+}
+div.navbar a:hover {
+    color: red;
+    text-decoration: underline;
 }
